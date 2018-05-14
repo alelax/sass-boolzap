@@ -6,16 +6,18 @@
    height: $nav-height;
    justify-content: space-between;
    background-color: #EDEDEE;
+
+   
+   .fa-lg {
+      line-height: $input-height;
+      font-size: 1em;
+      color: rgb(141, 144, 147);
+   }
+
 }
 
 .utility-icons-ctn {
    height: $full-height
-}
-
-.section-nav .fa-lg {
-   line-height: $input-height;
-   font-size: 1em;
-   color: rgb(141, 144, 147);
 }
 
 .contact-info {

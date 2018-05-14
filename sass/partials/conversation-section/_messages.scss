@@ -1,6 +1,6 @@
 
 .message-row {
-   display: flex;
+   @include flex-display;
    flex-direction: column;
    width: $full-width;
    min-height: 0px;
@@ -27,11 +27,11 @@
 }
 
 .msg-sent * {
-   background-color: #DCF8C6;
+   background-color: $msg-sent-color;
 }
 
 .msg-received * {
-   background-color: #FFFFFF;
+   background-color: $white;
 }
 
 .msg-time {
