@@ -1,0 +1,64 @@
+.input-bar {
+   width: $full-width;
+   height: $nav-height;
+   @include flex-display;
+   order: 1;
+   justify-content: space-evenly;
+   background-color: rgb(237, 231, 231);
+   align-items: center;
+}
+
+
+.emoticon-icon, .send-icon {
+   width: $icon-dimension;
+   height: $icon-dimension;
+}
+
+.input-bar .fa-lg {
+   line-height: $input-height;
+   font-size: 1.5em;
+   color: rgb(141, 144, 147);
+}
+
+.rotate {
+   transform: rotate(45deg);
+}
+
+.input-msg input {
+   min-width: 250px;
+   height: $input-height;
+   border: none;
+   border-radius: 5px;
+   padding: 0 5px;
+
+}
+
+
+/*************************/
+/* *** MEDIA QUERIES *** */
+/*************************/
+
+
+
+
+@media screen and (min-width : 568px) {
+
+   .input-msg input {
+      min-width: 490px;
+      align-self: stretch;
+      height: $input-height;
+      border: none;
+      border-radius: 5px;
+   }
+}
+
+@media screen and (min-width : 968px) {
+
+   .input-msg input {
+      width: 550px;
+      height: 35px;
+      border: none;
+      border-radius: 5px;
+   }
+
+}

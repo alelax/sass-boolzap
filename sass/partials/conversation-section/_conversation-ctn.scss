@@ -1,0 +1,47 @@
+.conversation-ctn {
+   @include flex-display;
+   flex-direction: column-reverse;
+   /* justify-content: space-between; */
+   width: $full-width;
+   height: $full-height;
+   position: relative;
+   background-color: rgb(164, 83, 48);
+   //background: url("../../images/chat-bg2.png");
+   background-size: 350px 175px;
+
+   .profile-photo {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+   }
+
+   .section-nav {
+      order: 3;
+      position: absolute;
+      top: 0;
+   }
+
+}
+
+
+.conversation-area {
+   order: 2;
+   width: $full-width;
+   max-height: calc($full-height - $nav-height - $nav-height);
+   overflow: scroll;
+   overflow-x: hidden;
+}
+
+
+/*************************/
+/* *** MEDIA QUERIES *** */
+/*************************/
+
+
+@media screen and (min-width : 968px) {
+
+   .conversation-ctn {
+      width: 70%;
+      float: left;
+   }
+}

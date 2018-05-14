@@ -1,0 +1,43 @@
+
+#contacts-filter {
+   display: block;
+   width: 95%;
+   height: 24px;
+   margin: 0 auto;
+
+   .fa-search {
+      float: left;
+      font-weight: 100;
+      color: $input-bar-text-color;
+   }
+}
+
+#contacts-search {
+   float: left;
+   height: 100%;
+   width: 80%;
+   padding: 0 5px;
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(255, 255, 255);
+   color: $input-bar-text-color
+
+}
+
+#contacts-search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   color: $placeholder-color;
+}
+
+/*************************/
+/* *** MEDIA QUERIES *** */
+/*************************/
+
+
+@media screen and (min-width : 968px) {
+   .search-bar {
+      width: 100%;
+      height: 50px;
+      padding: 12px 0;
+      background-color: $input-bar-external-color
+   }
+}

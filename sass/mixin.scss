@@ -1,0 +1,39 @@
+
+@mixin transform-trans-y {
+   -webkit-transform: translateY(-50%);
+   -moz-transform:    translateY(-50%);
+   -ms-transform:     translateY(-50%);
+   -o-transform:      translateY(-50%);
+   transform:         translateY(-50%);
+}
+
+@mixin transform-trans {
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform:    translate(-50%, -50%);
+   -ms-transform:     translate(-50%, -50%);
+   -o-transform:      translate(-50%, -50%);
+   transform:         translate(-50%, -50%);
+}
+
+@mixin flex-display {
+   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+   display: -ms-flexbox;      /* TWEENER - IE 10 */
+   display: -webkit-flex;     /* NEW - Chrome */
+   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+
+@mixin photo-position {
+   position: relative;
+   top: 50%;
+   @include transform-trans-y;
+   margin: 0 5px;
+}
+
+@mixin absolute-centered {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   @include transform-trans;
+}

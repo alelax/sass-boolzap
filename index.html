@@ -1,0 +1,2015 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Muli:600|Poppins" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
+      <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+         <title>Boolzapp Web</title>
+   </head>
+   <body>
+
+      <div class="green-header">
+
+      </div>
+      <div class="texture-bg">
+
+      </div>
+
+      <main>
+         <!--  Box sinistro, contiene nav, filtro ricerca e lista contatti -->
+         <div class="contacts-ctn">
+
+            <!-- Nav strutturata con due sotto-container. Il primo contiene foto utente il secondo 3 icone -->
+            <nav class="section-nav">
+
+               <div class="contact-info">
+                  <img class="profile-photo" src="images/my.jpeg" alt="">
+               </div>
+
+               <div class="utility-icons-ctn">
+                  <i class="fa fa-refresh fa-lg" aria-hidden="true"></i>
+                  <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+                  <i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i>
+               </div>
+
+            </nav>
+
+            <!-- Filter for search contacts -->
+            <div class="search-bar">
+               <form id="contacts-filter" class="" action="index.html" method="post">
+                  <label><i class="fa fa-search" aria-hidden="true"></i></label>
+                  <input id="contacts-search" type="text" name="" value="" placeholder="Search or start new chat">
+               </form>
+            </div>
+
+            <!-- Last conversations list -->
+            <div class="conversations-list">
+
+               <div id="Alessandro" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/1.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Alessandro</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Alessio" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/2.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Alessio</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Fabio" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/3.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Fabio</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Michele" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/4.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Michele</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Luca" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/5.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Luca</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Aurora" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/6.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Aurochat-bgra</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Samuele" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/7.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Samuele</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Davide" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/8.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Davide</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Federico" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/9.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Federico</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Ervin" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/10.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Ervin</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Loana" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/11.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Loana</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Vittorio" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/12.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Vittorio</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Matteo" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/13.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Matteo</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div id="Mario" class="conversation-preview">
+                  <div class="photo-box">
+                     <img class="profile-photo" src="images/14.jpeg" alt="">
+                  </div>
+                  <div class="preview">
+                     <div class="msg-preview">
+                        <span class="chat-with">Mario</span>
+                        <span class="last-msg">ciao</span>
+                     </div>
+                     <div class="info-msg-preview">
+                        <span class="time-last-msg">13:25</span>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+
+         </div>
+
+         <div class="conversation-ctn">
+
+            <!-- Nav strutturata con due sotto-container. Il primo contiene foto utente il secondo 3 icone -->
+            <nav class="section-nav">
+
+               <div class="contact-info">
+                  <img class="profile-photo" src="images/1.jpeg" alt="">
+                  <span class="chat-with">Alessandro</span>
+               </div>
+
+               <div class="utility-icons-ctn">
+                  <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+                  <i class="fa fa-paperclip fa-lg" aria-hidden="true"></i>
+                  <i class="fa fa-ellipsis-v fa-lg" aria-hidden="true"></i>
+               </div>
+
+            </nav>
+
+            <!--  Conversations archive -->
+            <div class="Alessandro conversation-area visible">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Alessandro
+
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Alessio conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Alessio
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Fabio conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Fabio
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Michele conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Michele
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Luca conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Luca
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Aurora conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Aurora
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Samuele conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Samuele
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Davide conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Davide
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Federico conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Federico
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Ervin conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Ervin
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Loana conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Loana
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Vittorio conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Vittorio
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Matteo conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Matteo
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <div class="Mario conversation-area hidden">
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Ciao Mario
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Ciao
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+               <div class="message-row msg-sent">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+
+                  </div>
+               </div>
+               <div class="message-row msg-received">
+                  <div class="message-box">
+                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                     <span class="msg-time">15:55</span>
+                  </div>
+               </div>
+
+
+            </div>
+
+            <!-- Message input bar -->
+            <div class="input-bar">
+
+               <div class="emoticon-icon">
+                  <i class="fa fa-smile-o fa-lg" aria-hidden="true"></i>
+               </div>
+               <div class="input-msg">
+                  <input id="input-msg" type="text" name="" value="" placeholder="Type text here">
+               </div>
+               <div class="send-icon">
+                  <!-- <i class="fa fa-microphone fa-lg" aria-hidden="true"></i> -->
+                  <i class="fa fa-location-arrow fa-lg rotate" aria-hidden="true"></i>
+               </div>
+
+            </div>
+
+         </div>
+
+      </main>
+
+
+      <script type="text/javascript" src="main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,103 @@
+.contacts-ctn {
+   display: none;
+}
+.contact-info > *, .photo-box > * {
+   @include photo-position;
+}
+
+.profile-photo {
+   width: 38px;
+   height: 38px;
+   border-radius: 50%;
+}
+
+
+/*************************/
+/* *** MEDIA QUERIES *** */
+/*************************/
+
+@media screen and (min-width : 968px) {
+
+   .contacts-ctn {
+      display: block;
+      /* flex-direction: column; */
+      width: 30%;
+      height: 100%;
+      float: left;
+   }
+
+   /* Last conversations list */
+   .conversations-list {
+      width: 100%;
+      height: calc(100% - 95px);
+      overflow: scroll;
+      overflow-x:hidden;
+   }
+
+   .conversation-preview {
+      display: flex;
+      width: 100%;
+      height: 60px;
+      background-color: $input-bar-internal-color;
+
+      &:hover{
+         background-color: $input-bar-external-color;
+         cursor: pointer;
+      }
+   }
+
+   .conversation-preview:hover {
+
+   }
+
+   .photo-box {
+      height: 100%;
+      width: 60px;
+      text-align: center;
+   }
+
+   .preview {
+      display: flex;
+      width: 100%;
+      padding: 10px 5px;
+      justify-content: space-between;
+   }
+
+   .preview{
+      border-bottom: 0.01em solid rgb(227, 224, 224);
+   }
+
+   .conversation-preview .photo-box .profile-photo {
+      width: 45px;
+      height: 45px;
+   }
+
+   .msg-preview {
+      height: 75%;
+      width: 70px;
+   }
+
+   .chat-with {
+      font-size: 15px;
+   }
+
+   .last-msg {
+      font-size: 15px;
+      color: rgb(168, 156, 156);
+   }
+
+   .chat-with, .last-msg {
+      display: block;
+      margin: 2px 0;
+   }
+
+   .info-msg-preview {
+      float: right;
+   }
+
+   .time-last-msg {
+      transform: translateY(-70%);
+      color: rgb(168, 156, 156);
+      font-size: 13px;
+   }
+}

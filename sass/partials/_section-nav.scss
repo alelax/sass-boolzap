@@ -1,0 +1,29 @@
+
+/* Navigation bars for contacts-ctn and conversation-ctn */
+.section-nav {
+   @include flex-display;
+   width: 100%;
+   height: $nav-height;
+   justify-content: space-between;
+   background-color: #EDEDEE;
+}
+
+.utility-icons-ctn {
+   height: $full-height
+}
+
+.section-nav .fa-lg {
+   line-height: $input-height;
+   font-size: 1em;
+   color: rgb(141, 144, 147);
+}
+
+.contact-info {
+   height: $input-height;
+   padding-left: 10px;
+}
+
+
+.contact-info *, .utility-icons-ctn * {
+   float: left;
+}
